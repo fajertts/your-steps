@@ -22,7 +22,7 @@ export const NikeNavbar: React.FC = () => {
     <header className="w-full fixed top-0 left-0 z-50 select-none">
       <nav className="w-full  px-12 h-16 bg-[#343434]/60 flex items-center justify-between">
         <div className="flex items-center ">
-          <div className="text-5xl font-extra-bold font-rouge-script-regular  text-teal-400  cursor-pointer">
+          <div className="text-5xl font-extra-bold font-rouge-script-regular ml-60   text-teal-400  cursor-pointer">
             Your Steps
           </div>
         </div>
@@ -32,7 +32,7 @@ export const NikeNavbar: React.FC = () => {
             <li key={link.id}>
               <a
                 href={link.url}
-                className="hover:text-shadow-xl pb-5 border-b-2 border-transparent hover:border-teal-400 transition-all"
+                className="hover:text-shadow-xl pb-0 border-b-2 border-transparent hover:border-teal-400 transition-all"
               >
                 {link.title}
               </a>
@@ -47,7 +47,7 @@ export const NikeNavbar: React.FC = () => {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="search for products..."
-              className="w-70 lg:w-60 bg-[#343434] text-teal-400  text-sm rounded-full border-2 border-cyan-400 pl-4 pr-10 py-2 focus:outline-none focus: focus:border focus:border-teal-400 transition-all text-left"
+              className="w-70 lg:w-60 bg-[#343434] text-teal-400  text-sm rounded-full border-2 border-teal-400 pl-4 pr-10 py-2 focus:outline-none focus: focus:border focus:border-teal-400 transition-all text-left"
             />
 
             <span className="absolute right-3 top-2.5  pointer-events-none "></span>
