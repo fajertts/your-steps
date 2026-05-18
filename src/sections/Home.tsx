@@ -8,11 +8,16 @@ const Home = () => {
             loop
             muted
             playsInline
-            className=" object-cover w-full h-full z-0"
+            className=" object-cover w-full h-full absolute z-1 "
           >
             <source src="/shoes.mp4" type="video/mp4" />
           </video>
+          <div className="absolute left-15 bottom-50 z-2">
+            <p className=" text-2xl font-bold font-cairo text-white ">fsdfs</p>
+            <p className=" text-5xl font-bold font-cairo text-white ">abbbhh</p>
+          </div>
         </div>
+
       </section>
     </>
   );
