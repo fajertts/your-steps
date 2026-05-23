@@ -13,8 +13,8 @@ const Home = () => {
             <source src="/shoes.mp4" type="video/mp4" />
           </video>
           <div className="absolute left-15 bottom-50 z-2">
-            <p className=" text-2xl font-bold font-cairo text-white ">fsdfs</p>
-            <p className=" text-5xl font-bold font-cairo text-white ">abbbhh</p>
+            <p className=" text-3xl font-bold font-cairo text-white ">products for everyone</p>
+            <p className=" text-7xl font-bold font-cairo text-white ">feel comfortable everywhere</p>
           </div>
         </div>
 
